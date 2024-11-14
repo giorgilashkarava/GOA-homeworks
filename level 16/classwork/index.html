@@ -1,0 +1,29 @@
+<!-- შექმენით სარეგისტრაციო ფორმა, <სადაც მომხმარებელი შეიყვანს:
+
+სახელს
+გვარს
+ემაილს
+პაროლს
+
+Gender-ს (გამოიყენეთ radio (უნდა შეეძლოს მხოლოდ 1ის არჩევა)მინიშნება = name)
+
+ასევე გქონდეთ submit ღილაკი (დადასტურების ღილაკი)
+
+თქვენი ინფუთები სწორედ უნდა იყვნენ დაკავშირებული label-ებთან id-ების მ
+ეშვეობით და ფორმის დადასტურების შემდეგ სწორედ უნდა იყოს მონაცემები დახარისხებუი (name ატრიბუტის მეშვეობით) -->
+<form>
+    <label for="name">firstname</label>
+    <input type="txet" id="name"><br>
+    <label for="sname">surname</label>
+    <input type="text" id="sname"><br>
+    <label for="email">email</label>
+    <input type="email" id="email"><br>
+    <label for="pass">password</label>
+    <input type="password" id="pass"><br>
+    <label for="gender1">gender:</label>
+    <label for="gender">male</label>
+    <input type="radio" id="gender" name="gender">
+    <label for="gender1">female</label>
+    <input type="radio" id="gender1" name="gender">
+    <input type="submit">
+</form>
