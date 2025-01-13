@@ -1,0 +1,30 @@
+#hello {
+    text-decoration: underline dotted green;
+    text-align: right;
+    margin-right: 100px;
+    font-size: 50px;
+}
+#world {
+    text-decoration:line-through black ;
+    text-align: center;
+    font-size: 50px;
+}
+#i {
+    color: red;
+}
+#goal {
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+}
+#oriented {
+    text-decoration:line-through dotted green;
+    font-size: 50px;
+    text-align: right;
+    margin-right: 100px;
+}
+#is {
+    text-decoration: overline;
+    font-size: 50px;
+
+}
