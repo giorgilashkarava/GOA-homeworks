@@ -1,0 +1,14 @@
+div {
+    background-color: yellow;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
