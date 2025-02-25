@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-ის საზომი ერთეულები</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #e3f2fd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+        }
+        td {
+            font-size: 16px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS-ის საზომი ერთეულები</h2>
+    <table>
+        <tr>
+            <th>ერთეული</th>
+            <th>აღწერა</th>
+            <th>მაგალითი</th>
+        </tr>
+        <tr>
+            <td>px (პიქსელი)</td>
+            <td>აბსოლუტური ერთეული. ეკრანზე ფიქსირებულ ზომას წარმოადგენს.</td>
+            <td>width: 100px;</td>
+        </tr>
+        <tr>
+            <td>% (პროცენტი)</td>
+            <td>მშობელი ელემენტის ზომაზე დამოკიდებული ერთეული.</td>
+            <td>width: 50%;</td>
+        </tr>
+        <tr>
+            <td>em</td>
+            <td>ელემენტის ტექსტის ზომაზე დამოკიდებული ერთეული.</td>
+            <td>font-size: 2em; (ორმაგი ზომა)</td>
+        </tr>
+        <tr>
+            <td>rem</td>
+            <td>ძირითადი (root) ელემენტის ტექსტის ზომაზე დამოკიდებული ერთეული.</td>
+            <td>font-size: 1.5rem; (1.5-ჯერ ძირითადი ზომა)</td>
+        </tr>
+        <tr>
+            <td>vh (Viewport Height)</td>
+            <td>ხედვის არეს სიმაღლის პროცენტი.</td>
+            <td>height: 50vh; (ხედვის არეს 50%)</td>
+        </tr>
+        <tr>
+            <td>vw (Viewport Width)</td>
+            <td>ხედვის არეს სიგანის პროცენტი.</td>
+            <td>width: 30vw; (ხედვის არეს 30%)</td>
+        </tr>
+        <tr>
+            <td>vmin</td>
+            <td>ხედვის არეს უმცირესი განზომილების 1%.</td>
+            <td>font-size: 5vmin;</td>
+        </tr>
+        <tr>
+            <td>vmax</td>
+            <td>ხედვის არეს უმსხვილესი განზომილების 1%.</td>
+            <td>width: 10vmax;</td>
+        </tr>
+    </table>
+</body>
+</html>
