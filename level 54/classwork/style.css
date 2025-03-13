@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.car-container {
+    width: 75%;
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.car-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+@media (max-width: 1200px) {
+    .car-container {
+        width: 85%;
+    }
+}
+@media (max-width: 768px) {
+    .car-container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .car-container {
+        width: 95%;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}
+        

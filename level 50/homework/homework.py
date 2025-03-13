@@ -5,5 +5,5 @@ def derive(coefficient, exponent):
         nex = 2
     else:
         nex = exponent - 1
-    return str( str(coefficient*exponent) + "x^" + str(nex)
-#2
+    return str(coefficient*exponent) + "x^" + str(nex)
+
