@@ -1,4 +1,12 @@
-ol {
-    position: inherit;
-    marker: unset;
-}
+
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    
+    ol {
+        list-style-type: square; 
+        padding-left: 20px; 
+        position: relative;
+    }

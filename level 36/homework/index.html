@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სპორტული საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background: #666;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+        .section:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>სპორტული საიტი</h1>
+    </header>
+    <nav>
+        <a href="#football">⚽ ფეხბურთი</a>
+        <a href="#hunting">🔫 ნადირობა</a>
+        <a href="#fishing">🎣 თევზაობა</a>
+    </nav>
+    <div class="container">
+        <div id="football" class="section">
+            <h2>⚽ ფეხბურთი</h2>
+            <p>ყველაზე პოპულარული სპორტი მსოფლიოში! აქ ნახავთ სიახლეებს და საინტერესო ფაქტებს.</p>
+        </div>
+        <div id="hunting" class="section">
+            <h2>🔫 ნადირობა</h2>
+            <p>ნადირობის საუკეთესო რჩევები, ისტორიები და ტაქტიკები.</p>
+        </div>
+        <div id="fishing" class="section">
+            <h2>🎣 თევზაობა</h2>
+            <p>თევზაობის ტექნიკები და საუკეთესო ადგილები საქართველოში.</p>
+        </div>
+    </div>
+</body>
+</html>

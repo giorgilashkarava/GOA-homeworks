@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0f75f1;
+}
+
+
+.transform-box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    transition: transform 0.5s ;
+}
+.transform-box:hover{
+    transform: translate(-50px, 100px) scale(2) rotate(-180deg);
+}
