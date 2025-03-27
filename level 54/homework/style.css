@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.responsive-div {
+    width: 80vw;
+    height: 200px;
+    background-color: blue;
+}
+
+@media (max-width: 1200px) {
+    .responsive-div {
+        width: 40vw; /* 80vw / 2 */
+    }
+}
+
+@media (max-width: 800px) {
+    .responsive-div {
+        width: 20vw; /* 40vw / 2 */
+    }
+}
+
+@media (max-width: 400px) {
+    .responsive-div {
+        width: 10vw; /* 20vw / 2 */
+    }
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.outer-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.inner-div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+/* ანიმაცია მაუსის გადატარებისას */
+.outer-div:hover {
+    transform: scale(1.2);
+}
+
+.outer-div:hover .inner-div {
+    transform: rotate(360deg);
+    background-color: white;
+}
